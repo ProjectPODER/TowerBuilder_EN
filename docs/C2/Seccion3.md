@@ -1,6 +1,6 @@
 # Personalizar los estilos del sitio
 
-Puedes modificar algunos estilos de Tower Builder como los colores, la tipografía, la imagen de fondo de la Home y el tamaño del texto.
+Puedes modificar algunos estilos de TowerBuilder como los colores, la tipografía, la imagen de fondo de la Home y el tamaño del texto.
 
 Para editar los estilos, debes entrar a la carpeta **_sass/** y abrir el archivo **_variables.scss**, dentro del documento, encontrarás algunas variables que podrás modificar.
 
@@ -44,7 +44,7 @@ Para añadir un color
 $turquoise: #40e0d0;
 ```
 
-El color principal de Tower Builder, está definido en la variable **$primary**, por default tiene la variable del color azul **$blue**, para cambiar el color, sólo debes reemplazarla por la variable del color que quieras, por ejemplo:
+El color principal de TowerBuilder, está definido en la variable **$primary**, por default tiene la variable del color azul **$blue**, para cambiar el color, sólo debes reemplazarla por la variable del color que quieras, por ejemplo:
 
 ```
 $primary:       $blue !default;
@@ -55,7 +55,7 @@ $primary:       $turquoise !default;
 O dejar sin editar, si sólo cambiaste el tono del color.
 ```
 
-Te recomendamos [este sitio](https://www.color-hex.com/)(en inglés) o [este sitio](https://htmlcolorcodes.com/es/selector-de-color/) (en español), para encontrar los códigos hexadecimales de los colores.
+Te recomendamos [este sitio](https://www.color-hex.com/) (en inglés) o [este sitio](https://htmlcolorcodes.com/es/selector-de-color/) (en español), para encontrar los códigos hexadecimales de los colores.
 
 
 ## Cambiar la imagen de fondo de la página principal
