@@ -2,7 +2,7 @@
 
 Los archivos de texto que se pueden editar, están en formato MarkDown (.md).
 
-Markdown es una sintaxis liviana y fácil de usar para dar estilo a los textos en la web. Tú controlas la visualización del documento; formatear palabras en negrita o cursiva, agregar imágenes y crear listas son solo algunas de las cosas que podemos hacer con Markdown. En general, Markdown es solo texto regular con algunos caracteres no alfabéticos, como `#` o `*`.
+Markdown es una sintaxis liviana y fácil de usar para dar estilo a los textos en la web. Tú controlas la visualización del documento, puedes formatear palabras en negrita o cursiva, agregar imágenes y crear listas entre otras muchas cosas que se pueden hacer con Markdown. En general, Markdown es solo texto regular con algunos caracteres no alfabéticos, como `#` o `*`.
 
 Te recomendamos la [guía de Markdown de Github](https://guides.github.com/features/mastering-markdown/) para aprender más al respecto.
 
@@ -79,9 +79,9 @@ permalink: /link-de-la-pagina/
 
 ### Cambiar el orden de los elementos del menú principal
 
-Tower Builder añade los elementos del menú principal en orden alfabético, se pueden reordenar cambiando el número que se encuentra en el nombre del archivo, de acuerdo al orden que se desee.
+TowerBuilder añade los elementos del menú principal en orden alfabético, se pueden reordenar cambiando el número que se encuentra en el nombre del archivo, de acuerdo al orden que se desee.
 
-Por default tenemos este orden:
+Por defecto tenemos este orden:
 
 1. home
 2. slider.html
@@ -94,7 +94,7 @@ Por default tenemos este orden:
 Estos son los pasos para editar el nombre de un archivo en Github:
 
 1. Da click en el archivo que quieres modificar.
-2. Dentro del archivo, dar click en el ícono del lápiz (Edit this file).
+2. Dentro del archivo, dar click en el ícono del lápiz (*Edit this file*).
 3. En la parte superior de la página, encontrarás el campo donde se modifica el nombre del archivo.
 4. Modificar el nombre del archivo.
 5. Una vez modificado, ir a la parte de abajo de la página en la sección **Commit changes**, en el primer campo añadir una corta descripción de los cambios que se hicieron, puedes agregar una descripción más extensa en el siguiente campo, de manera opcional.
@@ -119,7 +119,7 @@ Puedes crear un archivo donde podrás añadir texto y aparecerá dentro del men�
 
 Los pasos para crear un archivo son:
 
-1. En GitHub, navegua a la página principal del repositorio.
+1. En GitHub, navega a la página principal del repositorio.
 2. En el repositorio, busca la carpeta donde deseas crear un archivo.
 3. Encima de la lista de archivos, haz clic en _Create new file_.
    ![](https://help.github.com/assets/images/help/repository/create_new_file.png)
