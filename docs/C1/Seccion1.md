@@ -1,10 +1,10 @@
 # Bifurcar el repositorio
 
-Para poder empezar con tu sitio, primero debes crear tu propio repositorio. El repositorio es el espacio en el que estarán los archivos de tu sitio, y bifurcar significa que harás una copia del repositorio original de Tower Builder para tomarlo como base.
+Para poder empezar con tu sitio, primero debes crear tu propio repositorio. El repositorio es el espacio en el que estarán los archivos de tu sitio, y bifurcar (*Fork*) significa que harás una copia del repositorio original de TowerBuilder para tomarlo como base.
 
 1. Es necesario estar registrado en GitHub.com, si no tienes una cuenta puedes crear una [aquí](https://github.com/join?source=header-home).
 
-   Excención de responsabilidades: GitHub.com es una subsidiaria de Microsoft Inc. que provee servicios de alojamiento de repositorios git y de alojamiento web de forma sencilla y gratuita, por lo que fue elegida para este proyecto y para publicar el código de nuestra organización.
+> ***Exención de responsabilidades:** GitHub.com es una subsidiaria de Microsoft Inc. que provee servicios de alojamiento de repositorios git y de alojamiento web de forma sencilla y gratuita, por lo que fue elegida para este proyecto y para publicar el código de nuestra organización.*
 
 2. GitHub te pedirá que verifiques tu dirección de correo, para más información puedes revisar la [documentación oficial](https://help.github.com/en/articles/verifying-your-email-address).
 
