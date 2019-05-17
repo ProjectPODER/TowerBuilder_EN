@@ -1,58 +1,58 @@
-# Editar los textos
+# Editing texts
 
-Los archivos de texto que se pueden editar, están en formato MarkDown (.md).
+Editable text files are in MarkDown (.md) format.
 
-Markdown es una sintaxis liviana y fácil de usar para dar estilo a los textos en la web. Tú controlas la visualización del documento, puedes formatear palabras en negrita o cursiva, agregar imágenes y crear listas entre otras muchas cosas que se pueden hacer con Markdown. En general, Markdown es solo texto regular con algunos caracteres no alfabéticos, como `#` o `*`.
+Markdown is a light and user-friendly syntax used to style web texts. You are in control of the document visualization: you can bolden or italicize text, add images and create lists, among other things that can be done with MarkDown. Broadly speaking, Markdown is just plain text with some non-alphabetical characters, such as `#` or `*`.
 
-Te recomendamos la [guía de Markdown de Github](https://guides.github.com/features/mastering-markdown/) para aprender más al respecto.
+We recommend reading [Github's Markdown guide](https://guides.github.com/features/mastering-markdown/) to learn more about it.
 
-## Textos principales
+## Main texts
 
-Los textos principales están conformados por las secciones que aparecen en el menú principal.
+Main texts are composed of sections that appear on the main menu.
 
-Para editar los archivos:
+To edit files:
 
-1. En el repositorio en Github, dar click en el archivo que se quiere modificar.
-2. Dentro del archivo, dar click en el ícono del lápiz (Edit this file).
-3. Modificar el archivo en formato markdown.
-4. Una vez editado, ir a la parte de abajo de la página en la sección **Commit changes**, en el primer campo añadir una corta descripción de los cambios que se hicieron, puedes agregar una descripción más extensa en el siguiente campo, de manera opcional.
-5. Guardar los cambios dando click en el botón verde **Commit changes**.
+1. On GitHub's repository, click on the title of the file you want to modify.
+2. Click on the pencil icon located on the upper right corner (Edit this file).
+3. Edit the text using Markdown format.
+4. Once finished, go to the **Commit changes** section, underneath the edit section. Add a short description of changes you've made on the first box and, optionally, a longer description in the second box. 
+5. Save changes by clicking the green **Commit changes** button.
 
-A continuación, mostramos la lista de documentos que se pueden editar:
+List of editable documents:
 
-Para editar los textos de la página principal:
+To edit texts on the Home page:
   - **1-home.md**
 
-Para editar los textos de la página Acerca:
+To edit texts in the About page:
   - **4-about.md**
 
-Para editar los textos de cada slide del slider:
+To edit texts on each slide:
   - **collections/_first-slider/slide-1.md**
   - **collections/_first-slider/slide-2.md**
   - **collections/_first-slider/slide-3.md**
 
-Para añadir o quitar un slide, sólo debes añadir o quitar un archivo **.md** dentro de la carpeta **_first-slider**.
+To add or remove a slide, just add or remove an **.md** file inside **_first-slider** folder.
 
-Para cambiar o añadir una imagen (_.jpg_, _.png_ o _.svg_) dentro del slider, debes agregar la imagen dentro de la carpeta **assets/img/** y agregar el nombre del archivo dentro del archivo correspondiente al slide en el que aparecerá la imagen.
+If you want to change or add an image (.jpg, .png or .svg) inside the slider, you should add the image inside the **assets/img/** folder and add the file's name to the file corresponding to the slide where images will be.
 
 ```
 ---
 title: First Slide
-**image: graphic-example.png** -> aquí va el nombre del archivo.
+**image: graphic-example.png** -> file's name will be here.
 ---
 ```
 
-Para editar los textos del slider con la visualización:
+To edit the visualization slider captions:
   - **collections/_visualization-slider/slide-1.md**
   - **collections/_visualization-slider/slide-2.md**
   - **collections/_visualization-slider/slide-3.md**
 
 
-### Nombre de páginas y permalinks
+### Page names and permalinks
 
-Puedes editar el nombre y el permalink que se mostrará en cada sección del menú principal.
+You can edit the name and permalink of each section that will be shown on the main menu.
 
-Para eso, debes ubicar en cada archivo editable, el área donde se encuentra esta información, por ejemplo:
+To do this, find and edit this part:
 
 ```
 ---
@@ -62,26 +62,26 @@ permalink: /
 ---
 ```
 
-Para cambiar el nombre de la página, edita:
+To change the page's name, edit:
 
 ```
 ---
-title: Nombre de la página
+title: Page name
 ---
 ```
 
-Para cambiar el permalink, edita:
+To change the permalink, edit:
 ```
 ---
-permalink: /link-de-la-pagina/
+permalink: /page-link/
 ---
 ```
 
-### Cambiar el orden de los elementos del menú principal
+### Changing the order of items on the main menu
 
-TowerBuilder añade los elementos del menú principal en orden alfabético, se pueden reordenar cambiando el número que se encuentra en el nombre del archivo, de acuerdo al orden que se desee.
+Since TowerBuilder adds items to the main menu in alphabetical order, a custom order can be achieved by editing the numbers at the start of each file name.
 
-Por defecto tenemos este orden:
+This is the default order:
 
 1. home
 2. slider.html
@@ -91,16 +91,15 @@ Por defecto tenemos este orden:
 6. about.md
 7. styleguide.md
 
-Estos son los pasos para editar el nombre de un archivo en Github:
+These are the steps to edit the name of a GitHub file:
 
-1. Da click en el archivo que quieres modificar.
-2. Dentro del archivo, dar click en el ícono del lápiz (*Edit this file*).
-3. En la parte superior de la página, encontrarás el campo donde se modifica el nombre del archivo.
-4. Modificar el nombre del archivo.
-5. Una vez modificado, ir a la parte de abajo de la página en la sección **Commit changes**, en el primer campo añadir una corta descripción de los cambios que se hicieron, puedes agregar una descripción más extensa en el siguiente campo, de manera opcional.
-6. Guardar los cambios dando click en el botón verde **Commit changes**.
+1. On GitHub's repository, click on the title of the file you want to modify.
+2. Click on the pencil icon located on the upper right corner (*Edit this file*).
+3. Edit the filename at the filename box, located above the edit section.
+4. Once finished, go to the **Commit changes** section, underneath the edit section. Add a short description of changes you've made on the first box and, optionally, a longer description in the second box.
+5. Save changes by clicking the green **Commit changes** button.
 
-**Nota:** Para quitar la página _Styleguide_ del menú, debes ir al archivo de configuraciones **_config.yml** y escribir el nombre completo del archivo en la sección _exclude_, quedando de esta manera:
+**Note:** Note: If you want to remove Style guide page from menu, you need to go to *_config.yml* configurations file and write the file's full name on the exclude section. It should be like this:
 
 ```
 exclude:
