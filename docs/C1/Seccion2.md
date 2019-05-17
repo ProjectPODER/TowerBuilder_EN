@@ -1,57 +1,57 @@
-# Editar la configuración
+# Edit configuration
 
-Ahora comenzarás a darle forma a tu sitio, tendrás que definir un nombre para tu proyecto y otros atributos de configuración. Para esto deberás:
+Now you can start laying out your website: you'll have to define a project name and other settings. To do this, you must:
 
-1. Navegar hasta el archivo de configuración, para eso debes entrar a tu repositorio y buscar el archivo "**_config.yml**".
+1. Browse to the settings file: To do so, enter your repository and search for the file named "**_config.yml**".
 
-2. Da click en el nombre del archivo para abrirlo.
+2. Click on the file's name to open it.
 
-3. Da click en el botón "edit" en la parte superior derecha.
+3. Click on the "edit" button on the upper-right corner.
 
-4. Comienza a cambiar valores. Este archivo está en un formato llamado YAML, esto significa que está compuesto por una serie de pares de variables con sus valores, cada línea comienza con un nombre de variable, un signo de dos puntos (:) y luego el valor. 
+4. Start changing values. This file is on a YAML format, which means it's composed of a series of variables and its values. Each line starts with a variable name, and a colon (:) followed by a value.
 
 	```
-	variable: valor
+	variable: value
 	```
 
-	No debes cambiar nunca los nombres de las variables, sólo cambiarás lo que viene después de los dos puntos. 
+	Don’t change the names of the variables, only make changes after the “:”. 
     
-    - Lo primero que vas a cambiar es la variable _title_, esta define el nombre que tendrá tu sitio en diferentes lugares tales como la solapa del navegador, los resultados de búsqueda y en el encabezado del sitio. Para esto busca donde dice:
+    - Begin by changing the _title_ variable. It defines your site's name in different places, such as browser's tabs, search results and the header of the site. For this, search where it says:
 	
 	```
     title: "TowerBuilder" 
 	```
-    y cambia el valor entre comillas por el título de tu sitio, por ejemplo 
+    and replace the text between quotation marks with your site’s title:
 	```
-    title: "Análisis de contrataciones de la carretera sur".
+    title: "South road's contracting analysis".
 	```
 
-	- Otros valores importantes a cambiar son: 
+	- Other important values to change are: 
 
 	```
-    image: tb-logo.png -> cambiarlo por el logo de tu proyecto o dejarlo vacío, es opcional
+    image: tb-logo.png -> change for the project logo, or leave it empty, it's optional.
     description: >- 
-  	Modifica el texto existente y pon la descripción de tu proyecto aquí. 
+  	 Modify the existing text and put your project's description here. 
 	```
 
-	  Para cambiar el logo, sigue [estas instrucciones](https://towerbuilder.readthedocs.io/en/latest/C2/Seccion3.html#cambiar-el-logo).
+	  To change the logo, follow [these instructions](https://towerbuilder.readthedocs.io/en/latest/C2/Seccion3.html#cambiar-el-logo).
 
-	- Para que en el slider de la Visualización, aparezca el nombre principal de tu gráfico, edita la variable: 
+	- To display the main name of your graphic on the Visualization slider, edit the following variable: 
 
 	```
-    graphTitle: "Nombre del gráfico"
+    graphTitle: "Graphic name"
 	```
 
-	- Jekyll tiene un sistema de **Plugins**  que permiten ejecutar código personalizado sin necesidad de modificar la fuente de Jekyll. En la página de configuración de Tower Builder, se representa de esta manera:
+	- Jekyll has a Plugins system that allows executing the customized code without a need to modify the Jekyll's source. In the TowerBuilder’s configuration page, it's represented in the following way:
 	```
 	plugins:
   	  - jekyll-feed
   	  - jekyll-sitemap
 	```
 
-	[En este link](https://jekyllrb.com/docs/plugins/), encontrarás información más avanzada sobre los plugins.
+	[In this link](https://jekyllrb.com/docs/plugins/), you can find more advanced information about the plugins.
 
-	- Para incluir algún archivo que no quiera ser procesado, deberá estar definido en la sección **exclude**
+	- To exclude any file, add it to the **exclude** section.
 	```
     exclude:
       - Gemfile
@@ -61,7 +61,7 @@ Ahora comenzarás a darle forma a tu sitio, tendrás que definir un nombre para 
       - docs/
 	```
 
-	- Las colecciones son una excelente manera de agrupar contenido relacionado. Nuestro archivo de configuración muestra las colecciones con las que cuenta Tower Builder así:
+	- Collections are an excellent way to group related content. This is how our configuration file shows TowerBuilder’s collections:
 	```
     collections_dir: collections
     collections:
@@ -71,16 +71,16 @@ Ahora comenzarás a darle forma a tu sitio, tendrás que definir un nombre para 
         output: true
 	```
 
-	**Importante:** Esta lista de colecciones no debe ser editada, puedes añadir colecciones, pero no borrar las que ya están de manera predeterminada.
+	**Important:** This collections directory shouldn’t be edited. Collections can be added, but without deleting the default ones.
 
-	Para más información sobre las colecciones, [visita esta página](https://jekyllrb.com/docs/collections/).
+	For more information about collections, [visit this page](https://jekyllrb.com/docs/collections/).
 
-	- Las últimas variables que se muestran dentro del archivo "**_config.yml**", están relacionadas con las opciones con las que cuenta Tower Builder para mostrar los artículos:
+	- The last variables shown into "**_config.yml**" file are related to the options TowerBuilder has in order to show the articles:
 	```
     show_excerpts: true
 	future: true
 	```
 	
-	Para conocer más sobre estas opciones visita [este link](https://jekyllrb.com/docs/posts/).
+	If you want to know more about these options, visit [this link](https://jekyllrb.com/docs/posts/).
 
-Si quieres conocer opciones más avanzadas sobre este archivo de configuración, visita la [documentación oficial de Jekyll](https://jekyllrb.com/docs/configuration/options/).
+If you want to learn about more advanced options of this configuration file, visit [Jekyll's official documentation](https://jekyllrb.com/docs/configuration/options/).
