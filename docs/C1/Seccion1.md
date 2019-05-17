@@ -1,13 +1,13 @@
-# Bifurcar el repositorio
+# Fork the repository
 
-Para poder empezar con tu sitio, primero debes crear tu propio repositorio. El repositorio es el espacio en el que estarán los archivos de tu sitio, y bifurcar (*Fork*) significa que harás una copia del repositorio original de TowerBuilder para tomarlo como base.
+In order to start creating your website, you need to create your own repository first. Repository is the space where your website files are saved, use TowerBuilder’s original repository to fork it.
 
- * Es necesario estar registrado en GitHub.com, si no tienes una cuenta puedes crear una [aquí](https://github.com/join?source=header-home).
+ * You need sign in to GitHub.com. If you don't have an account, you can create one over [here](https://github.com/join?source=header-home).
 
-> ***Exención de responsabilidades:** GitHub.com es una subsidiaria de Microsoft Inc. que provee servicios de alojamiento de repositorios git y de alojamiento web de forma sencilla y gratuita, por lo que fue elegida para este proyecto y para publicar el código de nuestra organización.*
+> ***Disclaimer:** GitHub.com is a Microsoft Inc. subsidiary that provides git repositories hosting and web hosting services in a free and simple way. That’s why we chose to use it for posting this project and our organization's code.*
 
- * GitHub te pedirá que verifiques tu dirección de correo, para más información puedes revisar la [documentación oficial](https://help.github.com/en/articles/verifying-your-email-address).
+ * GitHub will require an e-mail verification. For more information, you can read the [official documentation](https://help.github.com/en/articles/verifying-your-email-address).
 
- * Para bifurcar el repositorio debes navegar al [inicio de este repositorio](https://github.com/ProjectPODER/TowerBuilder) y hacer click en el botón "fork" en el extremo superior derecho de la página. Esto creará una nueva página dentro de tu usuario, es decir http://github.com/tu_usuario/TowerBuilder y a partir de ahora trabajarás allí, ya que allí tendrás permiso de modificar los archivos y publicar sitios. Si tienes más dudas revisa la documentación de github sobre [cómo bifurcar un repositorio](https://help.github.com/en/articles/fork-a-repo). También puedes leer sobre [bifurcaciones (forks) en general](https://help.github.com/en/articles/about-forks).
+ * In order to fork the repository, you need to browse to the [repository's home](https://github.com/ProjectPODER/TowerBuilder) and click on "fork", on the upper-right corner of the page. This will create a new page under your user, as in http://github.com/tu_usuario/TowerBuilder. Now, you'll start working there, and you'll be allowed to modify files and publish sites. For further reading, check GitHub article about [how to fork a repository](https://help.github.com/en/articles/fork-a-repo). You can also read about [forks in general](https://help.github.com/en/articles/about-forks).
 
- * Para habilithttp://nancydrew.mypressonline.com/ar a otros colaboradores para que puedan editar los datos y textos, debes [configurar tu repositorio de acuerdo a la documentación de github](https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository).
+ * To enable http://nancydrew.mypressonline.com/ar for other collaborators, so they can edit data and texts, you must [configure your repository according to the GitHub documentation](https://help.github.com/en/articles/inviting-collaborators-to-a-personal-repository).
