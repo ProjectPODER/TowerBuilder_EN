@@ -170,8 +170,8 @@ To post an article in your repository:
 YEAR-MONTH-DAY-title.MARKUP
 ```
 
-YEAR-MONTH-DAY: **YEAR** is four-digit, **MONTH** and **DAY** are two-digits
-title: the desired title
+**YEAR** is four-digit, **MONTH** and **DAY** are two-digits,
+title: the desired title,
 **MARKUP**: file extension
 
 The following names are both valid:
