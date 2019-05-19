@@ -112,93 +112,95 @@ exclude:
   - 7-styleguide.md
 ```
 
-### Agregar un elemento del menú
+### Add an item to menu
 
-Puedes crear un archivo donde podrás añadir texto y aparecerá dentro del menú.
+You can create a file where you can add text and it will appear inside the menu.
 
-Los pasos para crear un archivo son:
+Steps to create a file are:
 
-1. En GitHub, navega a la página principal del repositorio.
-2. En el repositorio, busca la carpeta donde deseas crear un archivo.
-3. Encima de la lista de archivos, haz clic en _Create new file_.
-   ![](https://help.github.com/assets/images/help/repository/create_new_file.png)
-
-4. En el campo de _Name your file_, escribe el nombre y la extensión del archivo. Para crear subdirectorios, escribe el /separador de directorios.
+1. In GitHub, go to the repository's home page and open the folder where you want to create a file.
+2. Click on  _Create new file_, located above the upper-right corner of the file list.
+![](https://help.github.com/assets/images/help/repository/create_new_file.png)
+3. On  _Name your file_ box, write the file name with its extension. Use the forward slash (/) to create subdirectories.
    ![](https://help.github.com/assets/images/help/repository/new-file-name.png)
-
-5. En la pestaña _Edit new file_ , agrega contenido al archivo.
-6. Es importante agregar siempre a los archivos nuevos creados, el siguiente código al incio del archivo:
+4. Write the contents of the file in the _Edit new file_ tab.
+5. Always add the following file's start code to new files created:
    ```
    ---
-   layout: page -> siempre debe ser **page**
-   title: Nombre de la página -> puedes cambiar al título que desees
-   permalink: /nombre-del-link/ -> puedes cambiar al nombre del link que desees mostrar
+   layout: page -> must always be **page**
+   title: Page name -> the title you chose for the page
+   permalink: /link-name/ -> change it for the link you want to show
    ---
    ```
-7. Para revisar el nuevo contenido, haz clic en _Preview_.
+7. To review the content, click on _Preview_.
    ![](https://help.github.com/assets/images/help/repository/new-file-preview.png)
+8. Once finished, go to the **Commit New File** section, underneath the edit section. Add a short description of changes you've made on the first box and, optionally, a longer description in the second box.
+9. Save changes by clicking the green **Commit changes** button.
 
-8. Al final de la página, en el primer campo de la sección **Commit new file**, añadir una corta descripción de los cambios que se hicieron, puedes agregar una descripción más extensa en el siguiente campo, de manera opcional.
-9. Guardar los cambios dando click en el botón verde **Commit new file**.
+For more in-depth information of how to create a new file, visit [Github's official documentation](https://help.github.com/en/articles/creating-new-files).
 
-Para información más detallada de cómo crear un nuevo archivo, visita la [documentación oficial de Github](https://help.github.com/en/articles/creating-new-files).
+### Delete a menu item
 
-### Eliminar un elemento del menú
+Removing a menu item is easy, you just need to delete its file. 
 
-Para quitar un elemento del menú, basta con eliminar el archivo. 
+If you want to delete a GitHub file:
 
-Para eliminar un archivo en Github:
-
-1. Da click en el archivo que quieres eliminar.
-2. En la parte de arriba del documento, da click en el ícono del bote de basura.
-3. Al final de la página, en el primer campo de la sección **Commit changes**, añadir una corta descripción de los cambios que se hicieron, puedes agregar una descripción más extensa en el siguiente campo, de manera opcional.
-5. Guardar los cambios dando click en el botón verde **Commit changes**.
-
-
-## Artículos
-
-Los artículos son notas que analizan contratos, y aparecen vinculados a estos en el gráfico.
+1. Click on the file you want to delete.
+2. On the upper part of the document, click on the trash can icon.
+3. At the end of the page, add a short description of changes to **Commit new file**, the section's first box. You can optionally add a longer description in the following box.
+5. Save changes clicking on the green **Commit changes** button.
 
 
-### Crear un artículo
+## Articles
 
-Para crear un artículo, en tu repositorio, ve dentro de la carpeta **_posts** que a su vez está dentro de **collections**.
+Articles are notes that analyze contracts, and are linked to them in the graph.
 
-Da click en **Create new file**.
 
-Escribe dentro del campo **Name your file** el nombre del nuevo archivo, que debe tener el siguiente formato, de lo contrario, Tower Builder no podrá leer el artículo:
+### Create an article
+
+To post an article in your repository:
+
+1. Go to the **_posts** folder, inside the **collections** folder.
+
+2. Click on **Create new file**.
+
+3. Write the new file's name. TowerBuilder won't be able to read it unless it’s formatted this way:
 
 ```
 YEAR-MONTH-DAY-title.MARKUP
 ```
 
-Donde **YEAR** tiene un número de cuatro dígitos, **MONTH** y **DAY** tienen números de dos dígitos, y **MARKUP** es la extensión del archivo que representa el formato utilizado. Por ejemplo, los siguientes son ejemplos de nombres válidos:
+YEAR-MONTH-DAY: **YEAR** is four-digit, **MONTH** and **DAY** are two-digits
+title: the desired title
+**MARKUP**: file extension
+
+The following names are both valid:
 
 ```
 2018-12-31-new-years-eve-is-awesome.md
 2018-09-12-how-to-write-a-blog.md
 ```
 
-Todos los archivos de los artículos, deben comenzar con el siguiente encabezado:
+4. All articles have to start with the following header:
 
 ```
 ---
-layout: post -> Siempre debe ser post
-title:  "Welcome to Jekyll!" -> Puedes cambiarlo por el nombre que desees para tu artículo.
-author: "Name" -> Puedes escribir el nombre del autor del artículo
+layout: post -> All articles are post type
+title:  "Welcome to Jekyll!" -> The name you want for your article.
+author: "Name" -> The author's name for your article.
 ---
 ```
 
-Debajo del encabezado, puedes seguir con el contenido del artículo, siguiendo el mismo formato de los demás textos editables, que es Markdown.
+5. Write the contents of the article. You can format it using Markdown, as in all other editable texts.
 
-Para que se puedan vincular con el gráfico, debes saber el identificador del contrato OCID y agregarlo en el encabezado del  archivo, de la siguiente manera:
+6. To link with graphic, you must know its OCID contract identifier, and add it to the header like this:
 
 ```
 person: Juan Carlos Dueño
 ```
 
-Para guardar el nuevo archivo, da click en el botón **Commit new file** después de agregar un comentario sobre el nuevo archivo.
+To save the new file, click on the **Commit new file** button after adding a comment about it.
 
-Si deseas conocer todas las opciones posibles para los encabezados de los artículos y más configuraciones relacionadas, [visita este link](https://jekyllrb.com/docs/posts/).
+If you wish to know all possible options for articles headers and other related settings, [visit this link](https://jekyllrb.com/docs/posts/).
 
-**Importante:** Todas las modificaciones se reflejan automáticamente en el sitio público, este proceso puede tardar varios minutos para verse en la web.
+**Important:** All modifications are automatically reflected on the public site, although this process may take several minutes to take place.
