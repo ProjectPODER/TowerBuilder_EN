@@ -1,17 +1,17 @@
-# Publicar el sitio
+# Publish the website
 
-Una vez que hayas configurado tu sitio, agregado los datos y editado los textos, puedes publicar el sitio para verificar si está todo correcto. 
+Once you've configured your website, imported data and edited texts, you can publish the website to verify that everything works as it should.
 
-Inicialmente, tu nombre de usuario y el nombre del repositorio se verán reflejados en la dirección URL de tu sitio cuando esté publicado. Este tendrá la forma de **tu_usuario.github.io/tu_repositorio**
+At first, your username and the repository name will be reflected on your website URL address once it's published. It should be **your_username.github.io/your_repository**.
 
-1. Debajo del nombre de tu repositorio, da click en la opción "_Settings_".
-2. Baja hacia la sección _Github Pages_ y selecciona en _Source_ la opción de _master branch_.
-3. La página se recargará, baja nuevamente hacia la sección de _Github Pages_ y podrás ver una leyenda que dirá lo siguiente:  **Your site is published at _your_url_**. 
+1. Below your repository name there are several tabs. Click on the last one: “_Settings_”.
+2. Scroll down to _GitHub Pages_ section, and click on _Source_ the _master branch_ option.
+3. The page will refresh, scroll down again to _Github Pages_ and you should see **Your site is ready to be published at _your_url_** on top of the section.
 
-   **Nota:** Después de publicar tu sitio por primera vez, podrás personalizar la URL, más información sobre definir la dirección de tu sitio, [aquí](https://towerbuilder.readthedocs.io/en/latest/C2/Seccion3.html). 
+   **Note:** After publishing your site for the first time, you can customize the URL. For more information about setting your website address, click [here](https://towerbuilder.readthedocs.io/en/latest/C2/Seccion3.html).
 
-4. Da click en la url y podrás ver tu sitio publicado.
+4. Click on the URL to see your published site.
 
-Si requieres más información, puedes consultar la [documentación oficial de Github](https://help.github.com/en/articles/user-organization-and-project-pages).
+For more information, you can check [GitHub's official documentation](https://help.github.com/en/articles/user-organization-and-project-pages).
 
-**Importante:** No utilizar la misma URL del repositorio original, porque no se podrá visualizar el sitio.
+**Important:** Don't use the same URL as in the original repository because you won't be able to see the site.
