@@ -78,14 +78,14 @@ Note: Inside each release, certain fields need to contain some value so the grap
     - *> contracts.json* takes the result of the previous filter and saves it as a file called "contracts.json", in the current folder.
 7. Copy the file contracts.json to *assets/data/* in your repository, as explained in the previous section.
 
-### Actual Beneficiaries Data
+### Beneficial Owners Data
 
 In order to complement the contracting processes data, you can display relations between it and the people and enterprises behind the entities that appear on data published under OCDS. Relations are expressed as a hierarchy tree, where relations are established. They can be among companies, like a parent company and its subsidiaries; or among companies and people, like shareholders and board of directors members. This hierarchy tree allows establishing who the beneficial owners of the analyzed contracting processes are.
 
-> An Actual Beneficiary is any individual who, either directly or indirectly, owns, influences, controls and/or benefits of at least 5% of an asset through a corporation, commercial society or trust. 
-For more information about Actual Beneficiaries, click [here](https://www.colaboratorio.org/beneficiarios-reales-en-mexico/).
+> A Beneficial Owner is any individual who, either directly or indirectly, owns, influences, controls and/or benefits of at least 5% of an asset through a corporation, commercial society or trust. 
+For more information about Beneficial Owners, click [here](https://www.colaboratorio.org/beneficiarios-reales-en-mexico/).
 
-To create the Actual Beneficiaries dataset, download the template available in *assets/data/BO-template.csv*, and edit its values with a spreadsheet software, such as LibreOffice Calc, Excel, Google Spreadsheets, etc. The file contains the following columns:
+To create the Beneficial Owners dataset, download the template available in *assets/data/BO-template.csv*, and edit its values with a spreadsheet software, such as LibreOffice Calc, Excel, Google Spreadsheets, etc. The file contains the following columns:
 
 1. **NAME:** the entity name (individual or enterprise) as shown on the OCDS data.
 2. **TYPE_ENTITY:** "*company*" or "*individual*" depending on the entity defined on the first column.
@@ -94,7 +94,7 @@ To create the Actual Beneficiaries dataset, download the template available in *
     - "*parent*" to establish that the third column's company is a subsidiary of the first column's company.
     - "*shareholder*" when the first column's individual is a shareholder of the third column's company.
     - "*boardmember*" if the first column's individual is part of the board of directors of the third column's company.
-5. **PUESTO:** the position name the individual holds. It only applies to a TYPE_RELATIONSHIP with a value of "*boardmember*".
+5. **POSITION:** the position name the individual holds. It only applies to a TYPE_RELATIONSHIP with a value of "*boardmember*".
 
 Each row represents a branch of the hierarchy tree, starting from a base row that will only contain the company name on the first column and the word "company" on the second one. You should introduce the company name on each row, exactly as it appears on the contracting directory, so the graph can link the information. 
 Let’s look at the following hierarchy:
