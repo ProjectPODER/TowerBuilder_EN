@@ -1,21 +1,21 @@
-## ¿Por qué no se ve el gráfico? 
+## Why is the graphic not showing?
 
-Una de las razones es porque probablemente el archivo **contracts.json** no tiene el formato correcto. Verifica que el archivo sea correcto checando nuevamente [nuestra documentación](https://towerbuilder.readthedocs.io/en/latest/C1/Seccion3.html#datos-de-contratos).
+It could be because **contracts.json** is not formatted properly. Please refer to [our documentation](https://towerbuilder.readthedocs.io/en/latest/C1/Seccion3.html#datos-de-contratos) to help you check any errors.
 
-## ¿Por qué no aparecen mis artículos vinculados con el gráfico? 
+## Why are my graphic-related articles not showing?
 
-Revisa que el nombre de cada artículo este en el formato correcto o si está correctamente vinculado, como lo explicamos [aquí](https://towerbuilder.readthedocs.io/en/latest/C1/Seccion4.html#articulos).
+Check that each article name is in the right format or correctly linked, as we explain [here](https://towerbuilder.readthedocs.io/en/latest/C1/Seccion4.html#articulos).
 
-## ¿Por qué el formato de mi texto o artículo se rompe? 
+## Why is my text or article format broken?
 
-Revisa que el formato del archivo sea **.md**.
+Check that the file has an **.md** format.
 
-Revisa si los archivos correspondientes, cuentan con el encabezado correcto como lo explicamos [aquí](https://towerbuilder.readthedocs.io/en/latest/C1/Seccion4.html#agregar-un-elemento-del-menu).
+Check if the file has the right header, as we explain [here](https://towerbuilder.readthedocs.io/en/latest/C1/Seccion4.html#agregar-un-elemento-del-menu).
 
-Checa que estés usando elementos que acepta el formato **Markdown**, puedes checar la documentación oficial [aquí](https://guides.github.com/features/mastering-markdown/).
+Check you're using items that accept **Markdown** format. You can look through the official documentation over [here](https://guides.github.com/features/mastering-markdown/).
 
-## Tengo otro problema 
+## I have another issue
 
-Si encuentras algún problema que no se tenga en cuenta en este manual o deseas ayuda para armar tu sitio, puedes ponerte en contacto con PODER a través de la siguiente dirección de e-mail: info@quienesquien.wiki. 
+If you find any problem that isn't contemplated in this manual, or if you need help creating your website, you can get in touch with PODER through the following e-mail address: info@quienesquien.wiki.
 
-Alternativamente puedes reportar una incidencia utilizando GitHub, en la siguiente dirección: [https://github.com/ProjectPODER/TowerBuilder/issues](https://github.com/ProjectPODER/TowerBuilder/issues).
+On the other hand, you can also report an issue to GitHub through the following link: [https://github.com/ProjectPODER/TowerBuilder/issues](https://github.com/ProjectPODER/TowerBuilder/issues).
