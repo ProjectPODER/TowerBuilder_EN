@@ -1,14 +1,14 @@
-# Actualización de datos
+# Data Update
 
-TowerBuilder puede tener actualizaciones eventuales y es importante mantener tu repositorio sincronizado con el original para tener siempre las últimas actualizaciones de seguridad y nuevas funcionalidades. El proceso para sincronizar los repositorios consiste de los siguientes pasos:
+TowerBuilder may have occasional updates, which means that if you want to have the latest safety updates, you need to keep your repository synchronized with the original. The process to synchronize repositories consists of the following steps:
 
-1. En tu navegador, abre la página principal de tu repositorio (https://github.com/{tu_usuario}/TowerBuilder).
-2. Arriba del listado de archivos, del lado derecho, ubica el botón "Compare" y dale un click.
-3. La pantalla siguiente te muestra los cambios que has realizado en tu versión de TowerBuilder, pero esto no es exactamente lo que queremos ver aquí, sino los cambios hechos en el repositorio original de TowerBuilder. Debajo del título de la página encontrarás varios selectores que te permiten elegir los repositorios a comparar. En el primero de izquierda a derecha, selecciona tu propio repositorio.
-4. En la siguiente pantalla, haz click en el link que dice "compare across forks" que se encuentra justo debajo del título de la página, del lado derecho.
-5. Verás que se habilitan nuevamente los selectores de la pantalla anterior. Ahora deberás utilizar el tercer selector de izquierda a derecha para escoger el repositorio base de TowerBuilder (ProjectPODER/TowerBuilder). Esto mostrará los cambios realizados en el repositorio maestro, que serán las actualizaciones que debes integrar a tu repositorio. Si no existen actualizaciones, aparecerá un mensaje con el texto "There isn’t anything to compare" y no será necesario continuar con el proceso.
-6. Haz click en el botón verde que dice "Create pull request". Aparecerá un editor de texto donde puedes ingresar un mensaje, no es necesario ingresar ningún mensaje, pero es buena práctica ingresar un mensaje que especifique que estás realizando actualizaciones desde el repositorio maestro.
-7. Puedes hacer click en el botón verde que dice "Create pull request" nuevamente.
-8. La pantalla siguiente te debe indicar que no existen conflictos mediante un ícono verde con un cheque blanco. Si existen conflictos entre los repositorios no aparecerá este ícono, y no será posible realizar las actualizaciones. Justo debajo del ícono aparece un botón verde que dice "Merge pull request", debes hacer click en este botón. El texto del botón cambiará a "Confirm merge", debes hacer click de nuevo para finalizar el proceso de sincronización.
+1. In your browser, open the repository home page (https://github.com/{your_username}/TowerBuilder).
+2. Click on the "Compare" button, located above the upper-right corner of the files directory.
+3. The next screen will show the changes you made on your TowerBuilder version, but this isn’t exactly what we want to see, we want to see the changes made in TowerBuilder's original repository. Below the title, there is a drop-down menu to select the repository. Use it to select yours.
+4. On the next screen, right below “Comparing changes” there is a text that reads “Choose two branches to see what’s changed or to start a new pull request. If you need to, you can also compare across forks”. Click on “compare across forks”.
+5. You'll see the previous screen drop-down menus are enabled again. Now you'll need to use the third selector from the left to choose Towerbuilder’s base repository (ProjectPODER/TowerBuilder). This will show all changes made on the master repository, which are the updates you need for your repository. If you have no updates, "There isn't anything to compare" will pop up and you won't need to continue.
+6. Click on the green "Create pull request" button. A text editor will pop up where you can enter a message. You don't have to, but it's better to add one that states you're updating from the master repository.
+7. You can click again the green "Create pull request" button.
+8. In the following screen, a green icon with a check mark should show there are no conflicts. If there are any conflicts between the repositories, this icon won't appear and updates won't continue. You need to click right under the green "Merge pull request" button icon. The button's text will change to "Confirm merge", click it again to finish the synchronization process.
 
-Puedes seguir esta secuencia de pasos cada vez que desees sincronizar tu repositorio con los cambios y mejoras del repositorio maestro.
+Follow these steps periodically to keep up with changes and upgrades of the master repository.
