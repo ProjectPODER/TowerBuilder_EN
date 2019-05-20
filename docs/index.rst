@@ -1,54 +1,54 @@
-Haciendo mi sitio con TowerBuilder
+Building my website with TowerBuilder
 ==================================
 
-TowerBuilder es un sistema que no requiere programación para generar sitios web con visualizaciones de datos de contrataciones y beneficiarios reales. Está pensado para seguir el dinero en grandes procesos de compra, se ha usado en grandes obras públicas (`TorreDeControl.org <www.torredecontrol.org>`_) y en la compra de medicamentos (`VivirConVIH.org <www.vivirconvih.org>`_).
+TowerBuilder is a website creation tool that doesn't require programming knowledge to create websites featuring contracting data  and actual beneficiaries visualizations. Its main function is to monitor how money is managed in large purchase processes. It has been applied in large public workss (`TorreDeControl.org <www.torredecontrol.org>`_) and medical supplies (`VivirConVIH.org <https://livingwithhiv.quienesquien.wiki>`_).
 
-¿Qué necesito para armar mi sitio con TowerBuilder?
+What do I need to create my own TowerBuilder website?
 ---------------------------------------------------
 
-- Conseguir un listado de contrataciones en formato OCDS.
-- Armar una planilla de cálculo con los dueños de las empresas contratistas.
-- Redactar y editar textos en formato `MarkDown <https://guides.github.com/features/mastering-markdown/>`_.
-- Una cuenta de `GitHub.com <https://github.com/>`_.
+- Get an OCDS-format contracting list.
+- Create a spreadsheet shared with contracting businesses owners.
+- Write and edit text in `MarkDown <https://guides.github.com/features/mastering-markdown/>`_ format.
+- A `GitHub.com <https://github.com/>`_ account.
 
-¿Qué ventajas tiene usar TowerBuilder para armar mi sitio?
+What are the advantages of creating websites using TowerBuilder?
 ----------------------------------------------------------
 
-- El diseño predeterminado no requiere ningún esfuerzo de programación ni alojamiento del sitio, se hace todo desde GitHub.com.
-- Tendrás una visualización de datos impactante y un útil sistema de búsqueda de contratos.
-- Si tienes acceso a los datos, podrás armar tu sitio en minutos.
-- Podrás personalizar el diseño y los textos todo lo que gustes, de acuerdo a tus conocimientos y el tiempo disponible.
-- Podrás utilizar los datos abiertos del gobierno de tu país y demostrar la utilidad del estándar de contrataciones abiertas (OCDS) para el periodismo.
+- Default design doesn't require any coding or web hosting, everything is done in GitHub.com
+- Visually impressive data visualization and a useful contracting search system.
+- If you already have the data, you'll be able to create your website within minutes.
+- Hghly customizable design.
+- You can use open data from your country's government and show how useful the open contracting standard (OCDS) is for journalism.
 
-Si algo te resulta muy difícil, puedes volver a intentar en 15 minutos, revisar nuestra sección de [Errores y correcciones](https://towerbuilder.readthedocs.io/en/latest/C3/Seccion1.html) o pedir ayuda.
+If you find it difficult, you can try again in 15 minutes, check our [Errors and corrections](https://towerbuilder.readthedocs.io/en/latest/C3/Seccion1.html) section, or ask for help.
 
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Inicio
-
-   Intro/Seccion1
 
 .. toctree::
    :maxdepth: 2
-   :caption: Primeros pasos
+   :caption: Start
 
-   C1/Seccion1
-   C1/Seccion2
-   C1/Seccion3
-   C1/Seccion4
-   C1/Seccion5
+   Intro/Section1
 
 .. toctree::
    :maxdepth: 2
-   :caption: Modificaciones y mejoras
+   :caption: First steps
 
-   C2/Seccion1
-   C2/Seccion2
-   C2/Seccion3
+   C1/Section1
+   C1/Section2
+   C1/Section3
+   C1/Section4
+   C1/Section5
 
 .. toctree::
    :maxdepth: 2
-   :caption: Errores y correcciones
+   :caption: Modifications and enhancements
 
-   C3/Seccion1
+   C2/Section1
+   C2/Section2
+   C2/Section3
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Errors and corrections
+
+   C3/Section1
