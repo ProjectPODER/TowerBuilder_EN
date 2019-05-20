@@ -27,28 +27,28 @@ If you find it difficult, you can try again in 15 minutes, check our [Errors and
    :maxdepth: 2
    :caption: Start
 
-   Intro/Section1
+   Intro/Seccion1
 
 .. toctree::
    :maxdepth: 2
    :caption: First steps
 
-   C1/Section1
-   C1/Section2
-   C1/Section3
-   C1/Section4
-   C1/Section5
+   C1/Seccion1
+   C1/Seccion2
+   C1/Seccion3
+   C1/Seccion4
+   C1/Seccion5
 
 .. toctree::
    :maxdepth: 2
    :caption: Modifications and enhancements
 
-   C2/Section1
-   C2/Section2
-   C2/Section3
+   C2/Seccion1
+   C2/Seccion2
+   C2/Seccion3
 
 .. toctree::
    :maxdepth: 2
    :caption: Errors and corrections
 
-   C3/Section1
+   C3/Seccion1
