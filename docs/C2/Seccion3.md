@@ -1,20 +1,20 @@
-# Personalizar los estilos del sitio
+# Give your own style to your website
 
-Puedes modificar algunos estilos de TowerBuilder como los colores, la tipografía, la imagen de fondo de la Home y el tamaño del texto.
+You can customize the style of TowerBuilder. You can change color, typography, home page background image, and text size.
 
-Para editar los estilos, debes entrar a la carpeta **_sass/** y abrir el archivo **_variables.scss**, dentro del documento, encontrarás algunas variables que podrás modificar.
+To edit styles, open  **_variables.scss**, located in **_sass/**. In this file, you'll find some variables you can modify.
 
-Este archivo está en un formato llamado _.scss_, está compuesto por una serie de variables con sus valores, cada línea comienza con un nombre de variable, un signo de dos puntos (:) y luego el valor. 
+The file is a _.scss_, which is a version of CSS. It is comprised of a series of variables with its values. Each line starts with a variable name, and a colon (:) followed by a value.
 
 ```
-$variable: valor
+$variable: value
 ```
 
-No debes cambiar nunca los nombres de las variables, sólo cambiarás lo que viene después de los dos puntos. 
+Never change the variables names, only change the value after the colon. 
     
-## Cambiar los colores
+## Change the colors
 
-Estas son las variables que encontrarás de manera determinada para los colores:
+These are the color default variables:
 	
 ```
 $blue:    #007bff !default;
@@ -29,70 +29,68 @@ $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 ```
 
-Los colores para un sitio web, generalmente se representan mediante el [sistema hexadecimal](https://www.w3schools.com/colors/colors_hexadecimal.asp), por ejemplo: **#007bff**.
+Web colors are expressed in [hexadecimal](https://www.w3schools.com/colors/colors_hexadecimal.asp), for example: **#007bff**.
     
-Puedes cambiar los tonos de los colores que se encuentran por default cambiando el código hexadecimal o, sólo para la sección de colores, podrás añadir nuevas variables con colores nuevos, por ejemplo:
+You can modify the default color tones changing its hexadecimal value or, just for the colors section, adding variables with new colors. For example:
 
 ```
-Para cambiar el tono
+To change the tone, change
 $blue:    #007bff !default;
-
-Cambiar por
+for
 $blue:    #0056b2 !default;
 
-Para añadir un color
+To add a new color
 $turquoise: #40e0d0;
 ```
 
-El color principal de TowerBuilder, está definido en la variable **$primary**, por default tiene la variable del color azul **$blue**, para cambiar el color, sólo debes reemplazarla por la variable del color que quieras, por ejemplo:
+TowerBuilder main color is defined in the **$primary** variable, default color is **$blue**. If you want to change color, just replace it with any color you want:
 
 ```
+Change
 $primary:       $blue !default;
-
-Cambiar por 
+for
 $primary:       $turquoise !default;
 
-O dejar sin editar, si sólo cambiaste el tono del color.
+Or leave it as it is, if you just changed the color tone.
 ```
 
-Te recomendamos [este sitio](https://www.color-hex.com/) (en inglés) o [este sitio](https://htmlcolorcodes.com/es/selector-de-color/) (en español), para encontrar los códigos hexadecimales de los colores.
+We recommend you [this website](https://www.color-hex.com/) to find the colors hexadecimal codes.
 
 
-## Cambiar la imagen de fondo de la página principal
+## Changing the home page background image
 
-La variable para cambiar la imagen del fondo de la página prncipal la encuentras así:
+The background image is defined by the **$bgHome** variable:
 
 ```
 $bgHome : "./img/bg-masthead.jpg";
 ```
 
-1. Para cambiarla, necesitas agregar la imagen en la carpeta **assets/img/**, en formato **jpg** o **png**.
-2. Después, ir al archivo **_variables.scss** y reemplazar el nombre de la imagen:
+1. To change it, you'll need to copy the image file to the folder **assets/img/**, in **jpg** or **png** format.
+2. Then, go to **_variables.scss** and edit the **$bgHome** variable:
 
    ```
-   Default
+   Change the Default
    $bgHome : "./img/bg-masthead.jpg";
-   
-   Cambiar por
-   $bgHome : "./img/nombre-de-tu-archivo.jpg";
+   for
+   $bgHome : "./img/your-file-name.jpg";
    ```
 
-## Cambiar el logo
+## Changing the logo
 
-1. Agrega el archivo de tu logotipo en la carpeta **assets/img/**, en formato **jpg**,**png** o **svg**.
+1. Copy your logo image file to the folder **assets/img/**, in **jpg**, **png** or **svg** format.
 
-2. Ve al archivo de configuración **_config.yml** y cambia el valor de la variable **image** por el nombre del archivo de tu logotipo:
+2. Go to the configuration file (**_config.yml**) and edit the value of the **image** variable with your logo filename:
 
 ```
 image: tb-logo.png
 ```
-## Cambiar favicon
+## Changing favicon
 
-1. Reemplaza el archivo que se encuentra en la raíz del proyecto llamado **favicon.png** por tu favicon, deberá conservar el mismo nombre y de preferencia, la imagen debe tener como medidas: 32 x 32 pixeles.
+1. Replace the file on the project root, named **favicon.png**, with your favicon. It must have the same name and, preferably, 32 x 32 pixels.
 
-## Adaptar la visualización para vistas en dispositivos móviles
+## Mobile-friendly test
 
-La visualización necesitará mostrarse en imágenes para las vistas en dispositivos móviles, para esto deberás, una vez obtenida tu gráfica, convertir cada forma de tu visualización en imagen para poder agregarla en el encabezado de cada slide.
+Visualization needs to display properly in mobile devices. To achieve this, you'll have to turn each visualization into image once you have your graphic, so you can add it on each slide header.
 
 ```
 ---
