@@ -95,11 +95,11 @@ These are the steps to edit the name of a GitHub file:
 
 1. On GitHub's repository, click on the title of the file you want to modify.
 2. Click on the pencil icon located on the upper right corner (*Edit this file*).
-3. Edit the filename at the filename box, located above the edit section.
+3. Edit the name in the filename box, located above the edit section.
 4. Once finished, go to the **Commit changes** section, underneath the edit section. Add a short description of changes you've made on the first box and, optionally, a longer description in the second box.
 5. Save changes by clicking the green **Commit changes** button.
 
-**Note:** Note: If you want to remove Style guide page from menu, you need to go to *_config.yml* configurations file and write the file's full name on the exclude section. It should be like this:
+**Note:** If you want to remove Style guide page from menu, you need to go to *_config.yml* configurations file and write the file's full name on the exclude section. It should be like this:
 
 ```
 exclude:
@@ -132,10 +132,10 @@ Steps to create a file are:
    permalink: /link-name/ -> change it for the link you want to show
    ---
    ```
-7. To review the content, click on _Preview_.
+6. To review the content, click on _Preview_.
    ![](https://help.github.com/assets/images/help/repository/new-file-preview.png)
-8. Once finished, go to the **Commit New File** section, underneath the edit section. Add a short description of changes you've made on the first box and, optionally, a longer description in the second box.
-9. Save changes by clicking the green **Commit changes** button.
+7. Once finished, go to the **Commit New File** section, underneath the edit section. Add a short description of changes you've made on the first box and, optionally, a longer description in the second box.
+8. Save changes by clicking the green **Commit changes** button.
 
 For more in-depth information of how to create a new file, visit [Github's official documentation](https://help.github.com/en/articles/creating-new-files).
 
