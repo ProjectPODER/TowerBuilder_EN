@@ -23,7 +23,7 @@ List of editable documents:
 To edit texts on the Home page:
   - **1-home.md**
 
-To edit texts in the About page:
+To edit texts on the About page:
   - **4-about.md**
 
 To edit texts on each slide:
@@ -79,7 +79,7 @@ permalink: /page-link/
 
 ### Changing the order of items on the main menu
 
-Since TowerBuilder adds items to the main menu in alphabetical order, a custom order can be achieved by editing the numbers at the start of each file name.
+Since TowerBuilder adds items to the main menu in alphabetical order, a custom order can be achieved by editing the numbers at the start of each file's name.
 
 This is the default order:
 
@@ -121,7 +121,7 @@ Steps to create a file are:
 1. In GitHub, go to the repository's home page and open the folder where you want to create a file.
 2. Click on  _Create new file_, located above the upper-right corner of the file list.
 ![](https://help.github.com/assets/images/help/repository/create_new_file.png)
-3. On  _Name your file_ box, write the file name with its extension. Use the forward slash (/) to create subdirectories.
+3. On  _Name your file_ box, write the file's name with its extension. Use the forward slash (/) to create subdirectories.
    ![](https://help.github.com/assets/images/help/repository/new-file-name.png)
 4. Write the contents of the file in the _Edit new file_ tab.
 5. Always add the following file's start code to new files created:
@@ -170,8 +170,8 @@ To post an article in your repository:
 YEAR-MONTH-DAY-title.MARKUP
 ```
 
-**YEAR** is four-digit, **MONTH** and **DAY** are two-digits,
-title: the desired title,
+**YEAR** is four-digit, **MONTH** and **DAY** are two-digits;
+title: the desired title;
 **MARKUP**: file extension
 
 The following names are both valid:
@@ -185,7 +185,7 @@ The following names are both valid:
 
 ```
 ---
-layout: post -> All articles are post type
+layout: post -> All articles are post type.
 title:  "Welcome to Jekyll!" -> The name you want for your article.
 author: "Name" -> The author's name for your article.
 ---
