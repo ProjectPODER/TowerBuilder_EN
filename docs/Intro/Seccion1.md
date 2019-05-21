@@ -1,6 +1,6 @@
 # Building my website with TowerBuilder
 
-TowerBuilder is a website creation tool that doesn't require programming knowledge to create websites featuring contracting data visualization. It's specifically oriented to large public works and it’s inspired by ([TorreDeControl.org](www.torredecontrol.org))  and medical supplies ([VivirConVIH.org](https://livingwithhiv.quienesquien.wiki)).
+TowerBuilder is a website creation tool that doesn't require programming knowledge to create websites featuring contracting data and beneficial owners visualizations. It's specifically oriented to large public works and it’s inspired by ([TorreDeControl.org](www.torredecontrol.org))  and medical supplies ([VivirConVIH.org](https://livingwithhiv.quienesquien.wiki)).
 
 ## What do I need to create my own TowerBuilder website?
 
