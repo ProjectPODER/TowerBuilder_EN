@@ -95,6 +95,6 @@ Visualization needs to display properly in mobile devices. To achieve this, you'
 ```
 ---
 title: First Slide
-image: tu-grafica.png
+image: your-graphic.png
 ---
 ```
