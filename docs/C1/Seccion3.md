@@ -10,7 +10,7 @@ Data must be on a file named **contracts.json** and the file will be located in 
 
 * Browse to the repository’s home page. 
 * On the files directory, click on the *assets file*.
-* At the next page, click on the file named *data*. 
+* On the next page, click on the file named *data*. 
 * Once into the folder, click on "Upload files", located in the file's directory on the right corner of the screen. This will take you to another page.
 * Choose the file from your computer or drag it into the browser. If you can't see the button to upload files, you must log into GitHub with your username and password.
 
@@ -80,7 +80,7 @@ Note: Inside each release, certain fields need to contain some value so the grap
 
 ### Beneficial Owners Data
 
-In order to complement the contracting processes data, you can display relations between it and the people and enterprises behind the entities that appear on data published under OCDS. Relations are expressed as a hierarchy tree, where relations are established. They can be among companies, like a parent company and its subsidiaries; or among companies and people, like shareholders and board of directors members. This hierarchy tree allows establishing who the beneficial owners of the analyzed contracting processes are.
+In order to complement the contracting processes data, you can display relations between it and the people and enterprises behind the entities that appear on data published under OCDS. Relations are expressed as a hierarchy tree, where they are established. They can be among companies, like a parent company and its subsidiaries; or among companies and people, like shareholders and board of directors members. This hierarchy tree allows establishing who the beneficial owners of the analyzed contracting processes are.
 
 > A Beneficial Owner is any individual who, either directly or indirectly, owns, influences, controls and/or benefits of at least 5% of an asset through a corporation, commercial society or trust. 
 For more information about Beneficial Owners, click [here](https://www.colaboratorio.org/beneficiarios-reales-en-mexico/).
@@ -102,7 +102,7 @@ Let’s look at the following hierarchy:
 - **Company A** (1) appears on a contracting process.
 - **Company B** (2) is the parent company of **Company A**.
 - **Individual C** (3) and **Individual D** (4) are shareholders of **Company B**.
-- **Individual E** (5) and **Individual F** (6) son el **President** and **Vice-president** of**Company B**'s board of directors.
+- **Individual E** (5) and **Individual F** (6) are the **President** and **Vice-president** of**Company B**'s board of directors.
 
 You must fill in the file in the following way, using one row per entity:
 
