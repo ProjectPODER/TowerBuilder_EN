@@ -1,8 +1,8 @@
 # Define your site's address
 
-By default, your username and the repository name will be shown on your website URL address once it's published. It should be: **tu_usuario.github.io/TowerBuilder**.
+By default, your username and the repository name will be shown on your website URL address once it's published. It should be: **your_username.github.io/TowerBuilder**.
 
-1. If you wish to change _your_username_, you can [change your username](https://help.github.com/en/articles/changing-your-github-username) o [create an organization account in Github](https://help.github.com/en/articles/creating-a-new-organization-from-scratch) and choose the organization when you fork the repository. If you've already created the repository, you can [move it to the organization account](https://help.github.com/en/articles/transferring-a-repository).
+1. If you wish to change _your_username_, you can [change your username](https://help.github.com/en/articles/changing-your-github-username) or [create an organization account in Github](https://help.github.com/en/articles/creating-a-new-organization-from-scratch) and choose the organization when you fork the repository. If you've already created the repository, you can [move it to the organization account](https://help.github.com/en/articles/transferring-a-repository).
 
 2. If you wish to change the TowerBuilder part, you can [rename the repository](https://help.github.com/en/articles/renaming-a-repository).
 
