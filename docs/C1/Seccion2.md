@@ -1,6 +1,6 @@
 # Edit configuration
 
-Now you can start laying out your website: you'll have to define a project name and other settings. To do this, you must:
+Now you can start building your website: you'll have to define a project name and other settings. To do this, you must:
 
 1. Browse to the settings file: To do so, enter your repository and search for the file named "**_config.yml**".
 
@@ -34,7 +34,7 @@ Now you can start laying out your website: you'll have to define a project name 
   	 Modify the existing text and put your project's description here. 
 	```
 
-	  To change the logo, follow [these instructions](https://towerbuilder.readthedocs.io/en/latest/C2/Seccion3.html#cambiar-el-logo).
+	  To change the logo, follow [these instructions](https://towerbuilder.readthedocs.io/en/latest/C2/Seccion3.html#changing-the-logo).
 
 	- To display the main name of your graphic on the Visualization slider, edit the following variable: 
 
