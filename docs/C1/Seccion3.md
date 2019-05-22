@@ -2,25 +2,25 @@
 
 ### Contracting data
 
-For this section, the contracting directory you want to visualize must be formatted in [OCDS](http://standard.open-contracting.org/latest/en/), the open contracting standard format. You can use the [Kingfisher](https://github.com/open-contracting/kingfisher) tool to save to a local drive the listing of some OCDS sources. For more information, you can check Kingfisher's [full documentation](https://ocdskingfisher.readthedocs.io/en/latest/). You can also check the [OCDS Publisher](https://www.open-contracting.org/why-open-contracting/worldwide/#/table) full directory, which is updated quarterly.
+For this section, the set of contracts you want to visualize must be formatted in [OCDS](http://standard.open-contracting.org/latest/en/), the open contracting data standard. You can use the [Kingfisher](https://github.com/open-contracting/kingfisher) tool to save to a local drive the listing of some OCDS sources. For more information, you can check Kingfisher's [full documentation](https://ocdskingfisher.readthedocs.io/en/latest/). You can also check the [OCDS Publisher](https://www.open-contracting.org/why-open-contracting/worldwide/#/table) full directory, which is updated quarterly.
 
-OCDS standard is a model to publish and analyze contracting processes data. Data published under this standard is on [JSON](https://www.json.org/json-es.html) format and can appear in two ways: [release](http://standard.open-contracting.org/latest/en/schema/reference/) and [record](http://standard.open-contracting.org/latest/en/schema/records_reference/). Generally, OCDS data is published in contracting processes directories, known as packages. You can find [Release Packages](http://standard.open-contracting.org/latest/en/schema/release_package/) and [Record Packages](http://standard.open-contracting.org/latest/en/schema/record_package/) posted by governments of certain countries.
+OCDS standard is a model to publish and analyze contracting processes data. Data published under this standard is on [JSON](https://www.json.org/json-es.html) format and can appear in two ways: [release](http://standard.open-contracting.org/latest/en/schema/reference/) and [record](http://standard.open-contracting.org/latest/en/schema/records_reference/). Generally, OCDS data is published in sets of contracting processes, known as packages. You can find [Release Packages](http://standard.open-contracting.org/latest/en/schema/release_package/) and [Record Packages](http://standard.open-contracting.org/latest/en/schema/record_package/) published by governments of several countries.
 
 Data must be on a file named **contracts.json** and the file will be located in *assets/data/*. To upload the file to the GitHub repository:
 
 * Browse to the repository’s home page. 
-* On the files directory, click on the *assets file*.
-* On the next page, click on the file named *data*. 
-* Once into the folder, click on "Upload files", located in the file's directory on the right corner of the screen. This will take you to another page.
+* On the files list, click on the *assets* item.
+* On the next page, click on the item named *data*. 
+* Once into the folder, click on "Upload files", located in the file's listing on the right corner of the screen. This will take you to another page.
 * Choose the file from your computer or drag it into the browser. If you can't see the button to upload files, you must log into GitHub with your username and password.
 
-The data file must have a directory of records, or contracting processes releases. If a file stored in an array has to be an only records or releases directory, you might need to manipulate the file content. For this, we recommend the [ocdskit](https://github.com/open-contracting/ocdskit) and [jq](https://stedolan.github.io/jq/) tools.
+The data file must have a set of contracting processes in either records or releases. To allow the file to only contain an _array_ records or releases, you might need to manipulate the file's contents. For this, we recommend the [ocdskit](https://github.com/open-contracting/ocdskit) and [jq](https://stedolan.github.io/jq/) tools.
 
 **Contracts.json file structure**
 
 Contracts.json file must keep to the structure of one of the following sort of data: [Release Package](http://standard.open-contracting.org/latest/en/schema/release_package/) or [Record Package](http://standard.open-contracting.org/latest/en/schema/record_package/).
 
-A **Release Package** is a Json object with a property called «releases», which contains an array directory, indicated by brackets []. Its elements are individual objects of a [release](http://standard.open-contracting.org/latest/en/schema/reference/) type, separated by commas (,). Each release type object corresponds to an individual contracting process.
+A **Release Package** is a JSON object with a property called «releases», which contains a a set of contracts in the form of an _array_, indicated by brackets []. It's elements are individual objects of a [release](http://standard.open-contracting.org/latest/en/schema/reference/) type, separated by commas (,). Each release type object corresponds to an individual contracting process.
 ```
 {
     "releases": [
@@ -32,7 +32,7 @@ A **Release Package** is a Json object with a property called «releases», whic
 }
 ```
 
-A **Record Package**  is a Json object with a property called «records», which contains an array directory, indicated by brackets []. Its elements are individual objects of a [record](http://standard.open-contracting.org/latest/en/schema/records_reference/) type, separated by commas (,). Each object of a record type is composed, in turn, of two properties: a «releases» property, which must keep to the same format as the Release Packages described before; and another property called «compiledRelease», which contains an individual object of a [release](http://standard.open-contracting.org/latest/en/schema/reference/) type. Each release type object corresponds to an individual contracting process. The releases directory inside a record type of object contains the revision log for a contracting process, and the compiledRelease object contains the last version of each individual data of the same contract.
+A **Record Package**  is a JSON object with a property called «records», which contains a set of contracts in the form of an _array_, indicated by brackets []. It's elements are individual objects of a [record](http://standard.open-contracting.org/latest/en/schema/records_reference/) type, separated by commas (,). Each object of a record type is composed, in turn, of two properties: a «releases» property, which must keep to the same format as the Release Packages described before; and another property called «compiledRelease», which contains an individual object of a [release](http://standard.open-contracting.org/latest/en/schema/reference/) type. Each release type object corresponds to an individual contracting process. The releases directory inside a record type of object contains the revision history for a contracting process, and the compiledRelease object contains the last version of each individual data of the same contract.
 ```
 {
     "records": [
@@ -43,7 +43,7 @@ A **Record Package**  is a Json object with a property called «records», which
                 ...
                 { (release n) }
             ],
-            "compiledRelease": { (última versión del release) }
+            "compiledRelease": { (latest version of the release) }
         },
         { (record 2) },
         ...
@@ -61,14 +61,14 @@ Note: Inside each release, certain fields need to contain some value so the grap
 - *contracts.value.currency*
 - Inside the field “parties”, there should be at least one with *role: ["supplier"]* and values for the *id* and *name* fields.
 
-**Guide: Create a contracts directory manually**
+**Guide: Manually create a contracts set**
 
-1. Browse to a repository or open data API that offers OCDS-format contracting downloads. For this guide, we'll use the API of Mexico’s government website: [https://api.datos.gob.mx/](https://api.datos.gob.mx/).
-2. For this example, we'll use a query for a JSON-format contracting directory. 
+1. Browse to a repository or open data API that offers OCDS-format contracting downloads. For this guide, we'll use the API of Mexico’s federal government: [https://api.datos.gob.mx/](https://api.datos.gob.mx/).
+2. For this example, we'll use a query for a JSON-format contract set. 
 3. Right-click [this link](https://api.datos.gob.mx/v2/Releases_SFP) and select “Save link as…”, then proceed to save the .json file.
-4. Open a command prompt and browse to the downloaded file location. If you've never used a command prompt, you can read the following tutorials to learn more: [Linux](https://openwebinars.net/blog/La-guia-definitiva-para-aprender-a-usar-la-terminal-de-Linux/) / [Windows](https://www.abrirllave.com/cmd/guion-del-tutorial.php) / [Mac](http://foro-mac.com.ar/tutorial-como-usar-la-terminal-en-mac/).
+4. Open a command prompt and browse to the downloaded file location. If you've never used a command prompt, you can read the following tutorials to learn more: [Linux](https://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal/) / [Windows](https://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal/) / [Mac](https://mac.appstorm.net/how-to/utilities-how-to/how-to-use-terminal-the-basics/).
 5. Use **jq** to work with JSON data and structure it as you need. You'll find download and installation instructions for your operating system over [here](https://stedolan.github.io/jq/download/). You can learn how to use jq reading the [official manual](https://stedolan.github.io/jq/manual/).
-6. The API response consists of a root object that contains, among other things, the "results" property. The "results" value is the OCDS contracting directory that you need for TowerBuilder. With the following command (in Linux), you can take the directory, set it inside an object named "releases", and save it on a file under the name *contracts.json*:
+6. The API response consists of a root object that contains, among other things, the "results" property. The "results" value is the OCDS contracting directory that you need for TowerBuilder. With the following command (in Linux), you can take the items, put them inside an object named "releases", and save them on a file under the name *contracts.json*:
     ```
     cat Releases_SFP.json | jq '{releases: .results}' > contracts.json
     ```
@@ -80,10 +80,10 @@ Note: Inside each release, certain fields need to contain some value so the grap
 
 ### Beneficial Owners Data
 
-In order to complement the contracting processes data, you can display relations between it and the people and enterprises behind the entities that appear on data published under OCDS. Relations are expressed as a hierarchy tree, where they are established. They can be among companies, like a parent company and its subsidiaries; or among companies and people, like shareholders and board of directors members. This hierarchy tree allows establishing who the beneficial owners of the analyzed contracting processes are.
+In order to complement the contracting processes data, you can display relations between it and the people and enterprises behind the entities that appear on data published under OCDS. Relations are expressed as a hierarchy tree. They can be among companies, like a parent company and its subsidiaries; or among companies and people, like shareholders and members of the board of directors. This hierarchy tree allows establishing who the beneficial owners of the analyzed contracting processes are.
 
 > A Beneficial Owner is any individual who, either directly or indirectly, owns, influences, controls and/or benefits of at least 5% of an asset through a corporation, commercial society or trust. 
-For more information about Beneficial Owners, click [here](https://www.colaboratorio.org/beneficiarios-reales-en-mexico/).
+For more information about Beneficial Owners, click [here](https://www.colaboratorio.org/beneficiarios-reales-en-mexico/) (link in spanish).
 
 To create the Beneficial Owners dataset, download the template available in *assets/data/BO-template.csv*, and edit its values with a spreadsheet software, such as LibreOffice Calc, Excel, Google Spreadsheets, etc. The file contains the following columns:
 
@@ -108,4 +108,4 @@ You must fill in the file in the following way, using one row per entity:
 
 ![CSV Example](csvtable.png "Ejemplo CSV")
 
-Repeat the same process for each company’s hierarchy you have data from. Once the file is complete, you can repeat the same procedure from the previous section to upload it to *assets/data/*. The file must be named **owners.csv**.
+Repeat the same process for each company’s hierarchy you have data for. Once the file is complete, you can repeat the same procedure from the previous section to upload it to *assets/data/*. The file must be named **owners.csv**.
