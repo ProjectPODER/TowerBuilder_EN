@@ -25,7 +25,7 @@ If you find it difficult, you can try again in 15 minutes, check our `Errors and
 
 .. toctree::
    :maxdepth: 2
-   :caption: Start
+   :caption: Introduction
 
    Intro/Seccion1
 
