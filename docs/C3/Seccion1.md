@@ -1,16 +1,16 @@
 ## Why is the graphic not showing?
 
-It could be because **contracts.json** is not formatted properly. Please refer to [our documentation](https://towerbuilder.readthedocs.io/en/latest/C1/Seccion3.html#datos-de-contratos) to help you check any errors.
+It could be because **contracts.json** is not formatted properly. Please refer to [our documentation](https://towerbuilder.readthedocs.io/en/latest/C1/Seccion3.html#contracting-data) to help you check any errors.
 
 ## Why are my graphic-related articles not showing?
 
-Check that each article name is in the right format or correctly linked, as we explain [here](https://towerbuilder.readthedocs.io/en/latest/C1/Seccion4.html#articulos).
+Check that each article name is in the right format or correctly linked, as we explain [here](https://towerbuilder.readthedocs.io/en/latest/C1/Seccion4.html#articles).
 
 ## Why is my text or article format broken?
 
 Check that the file has an **.md** format.
 
-Check if the file has the right header, as we explain [here](https://towerbuilder.readthedocs.io/en/latest/C1/Seccion4.html#agregar-un-elemento-del-menu).
+Check if the file has the right header, as we explain [here](https://towerbuilder.readthedocs.io/en/latest/C1/Seccion4.html#add-an-item-to-menu).
 
 Check you're using items that accept **Markdown** format. You can look through the official documentation over [here](https://guides.github.com/features/mastering-markdown/).
 
