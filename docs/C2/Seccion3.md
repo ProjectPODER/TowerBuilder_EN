@@ -88,7 +88,7 @@ image: tb-logo.png
 
 1. Replace the file on the project root, named **favicon.png**, with your favicon. It must have the same name and, preferably, 32 x 32 pixels.
 
-## Mobile-friendly test
+## Mobile-friendly visualization
 
 Visualization needs to display properly in mobile devices. To achieve this, you'll have to turn each visualization into image once you have your graphic, so you can add it on each slide header.
 
