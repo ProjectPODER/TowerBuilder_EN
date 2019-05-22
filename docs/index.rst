@@ -1,7 +1,7 @@
 Building my website with TowerBuilder
 ==================================
 
-TowerBuilder is a website creation tool that doesn't require programming knowledge to create websites featuring contracting data  and actual beneficiaries visualizations. Its main function is to monitor how money is managed in large purchase processes. It has been applied in large public workss (`TorreDeControl.org <www.torredecontrol.org>`_) and medical supplies (`VivirConVIH.org <https://livingwithhiv.quienesquien.wiki>`_).
+TowerBuilder is a system to generate websites with data visualizations that mix open contracting and beneficial ownership data, all without requiring programming knowledge. It is designed to follow the money in large contracting processes and has been used in both big public works (`TorreDeControl.org <www.torredecontrol.org>`_) and in medicine procurement (`VivirConVIH.org <https://livingwithhiv.quienesquien.wiki>`_).
 
 What do I need to create my own TowerBuilder website?
 ---------------------------------------------------
