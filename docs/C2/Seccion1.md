@@ -1,6 +1,6 @@
-# Data Update
+# TowerBuilder updates
 
-TowerBuilder may have occasional updates, which means that if you want to have the latest safety updates, you need to keep your repository synchronized with the original. The process to synchronize repositories consists of the following steps:
+TowerBuilder, the base with which you are building your website, may have occasional updates, which means that if you want to have the latest safety updates, you need to keep your repository synchronized with the original. The process to synchronize repositories consists of the following steps:
 
 1. In your browser, open the repository home page (https://github.com/your_username/TowerBuilder).
 2. Click on the "Compare" button, located above the upper-right corner of the files directory.
