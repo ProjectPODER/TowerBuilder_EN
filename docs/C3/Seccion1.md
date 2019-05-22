@@ -2,7 +2,7 @@
 
 It could be because **contracts.json** is not formatted properly. Please refer to [our documentation](https://towerbuilder.readthedocs.io/en/latest/C1/Seccion3.html#contracting-data) to help you check any errors.
 
-## Why are my graphic-related articles not showing?
+## Why are my articles not showing in the graphic?
 
 Check that each article name is in the right format or correctly linked, as we explain [here](https://towerbuilder.readthedocs.io/en/latest/C1/Seccion4.html#articles).
 
