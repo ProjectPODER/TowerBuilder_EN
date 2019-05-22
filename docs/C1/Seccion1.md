@@ -1,6 +1,6 @@
 # Fork the repository
 
-In order to start building your website, you need to create your own repository first. A repository is the space where your website files are saved, use TowerBuilder’s original repository to fork it.
+In order to start building your website, you need to create your own repository first. A repository is the space where your website’s files are saved. You will be using a _fork_ -that is, a copy- of TowerBuilder’s original repository.
 
  * You need sign in to GitHub.com. If you don't have an account, you can create one over [here](https://github.com/join?source=header-home).
 
