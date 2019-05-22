@@ -4,7 +4,7 @@ In order to start building your website, you need to create your own repository 
 
 1. You need sign in to GitHub.com. If you don't have an account, you can create one over [here](https://github.com/join?source=header-home).
 
-> ***Disclaimer:** GitHub.com is a Microsoft Inc. subsidiary that provides git repositories hosting and web hosting services in a free and simple way. That’s why we chose to use it for posting this project and our organization's code.*
+   > ***Disclaimer:** GitHub.com is a Microsoft Inc. subsidiary that provides git repositories hosting and web hosting services in a free and simple way. That’s why we chose to use it for posting this project and our organization's code.*
 
 2. GitHub will require an e-mail verification. For more information, you can read the [official documentation](https://help.github.com/en/articles/verifying-your-email-address).
 
