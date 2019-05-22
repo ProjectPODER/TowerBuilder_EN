@@ -12,6 +12,6 @@ By default, your username and the repository name will be shown on your website 
 
 To use a custom subdomain, you need to modify its DNS. You can do it on the website where the domain has been registered.
 
-You need to add a CNAME that takes you to username.github.io. For more details, check GitHub's documentation: https://help.github.com/en/articles/setting-up-a-custom-subdomain.
+You need to add a CNAME that takes you to username.github.io. For more details, check [GitHub's documentation](https://help.github.com/en/articles/setting-up-a-custom-subdomain).
 
 **Important:** Don't use the same URL as in the original repository because you won't be able to see the site.
