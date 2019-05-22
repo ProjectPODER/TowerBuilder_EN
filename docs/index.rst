@@ -17,7 +17,7 @@ What are the advantages of creating websites using TowerBuilder?
 - Default design doesn't require any coding or web hosting, everything is done in GitHub.com
 - Visually impressive data visualization and a useful contracting search system.
 - If you already have the data, you'll be able to create your website within minutes.
-- Hghly customizable design.
+- Highly customizable design.
 - You can use open data from your country's government and show how useful the open contracting standard (OCDS) is for journalism.
 
 If you find it difficult, you can try again in 15 minutes, check our `Errors and corrections <https://towerbuilder.readthedocs.io/en/latest/C3/Seccion1.html>`_ section, or `ask for help <https://towerbuilder.readthedocs.io/en/latest/C3/Seccion1.html#i-have-another-issue>`_.
