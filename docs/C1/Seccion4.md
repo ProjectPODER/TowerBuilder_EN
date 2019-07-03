@@ -99,7 +99,7 @@ These are the steps to edit the name of a GitHub file:
 4. Once finished, go to the **Commit changes** section, underneath the edit section. Add a short description of changes you've made on the first box and, optionally, a longer description in the second box.
 5. Save changes by clicking the green **Commit changes** button.
 
-**Note:** If you want to remove Style guide page from menu, you need to go to *_config.yml* configurations file and write the file's full name on the exclude section. It should be like this:
+<!-- **Note:** If you want to remove Style guide page from menu, you need to go to *_config.yml* configurations file and write the file's full name on the exclude section. It should be like this:
 
 ```
 exclude:
@@ -111,6 +111,8 @@ exclude:
   - docs/
   - 7-styleguide.md
 ```
+
+
 
 ### Add an item to menu
 
@@ -148,8 +150,73 @@ If you want to delete a GitHub file:
 1. Click on the file you want to delete.
 2. On the upper part of the document, click on the trash can icon.
 3. At the end of the page, add a short description of changes to **Commit new file**, the section's first box. You can optionally add a longer description in the following box.
+5. Save changes clicking on the green **Commit changes** button. -->
+
+### Add a new page
+
+To add a new page, you can create a file where you can add text in markdown format.
+
+Steps to create a file are:
+
+1. In GitHub, go to the repository's home page and open the folder where you want to create a file.
+2. Click on  _Create new file_, located above the upper-right corner of the file list.
+![](https://help.github.com/assets/images/help/repository/create_new_file.png)
+3. On  _Name your file_ box, write the file's name with its extension.
+   ![](https://help.github.com/assets/images/help/repository/new-file-name.png)
+4. Write the contents of the file in the _Edit new file_ tab.
+5. Always add the following file's start code to new files created:
+   ```
+   ---
+   layout: page -> must always be **page**
+   title: Page name -> the title you chose for the page
+   permalink: /link-name/ -> change it for the link you want to show
+   ---
+   ```
+6. To review the content, click on _Preview_.
+   ![](https://help.github.com/assets/images/help/repository/new-file-preview.png)
+7. Once finished, go to the **Commit New File** section, underneath the edit section. Add a short description of changes you've made on the first box and, optionally, a longer description in the second box.
+8. Save changes by clicking the green **Commit changes** button.
+
+For more in-depth information of how to create a new file, visit [Github's official documentation](https://help.github.com/en/articles/creating-new-files).
+
+
+### Add a menu item
+
+When creating a new page that contains the header described above, it will automatically be added to the bottom of the menu.
+
+If you want to change the order that the page should appear in the menu, place the corresponding number and modify the numbers of the elements that are already there. To rename a file, follow the [Github documentation here](https://help.github.com/en/articles/renaming-a-file).
+
+
+### Hide/Delete a menu item
+
+Removing a menu item is easy, you just need to delete its file. 
+
+If you want to delete a GitHub file:
+
+1. Click on the file you want to delete.
+2. On the upper part of the document, click on the trash can icon.
+3. At the end of the page, add a short description of changes to **Commit new file**, the section's first box. You can optionally add a longer description in the following box.
 5. Save changes clicking on the green **Commit changes** button.
 
+If you want to exclude a page from the menu, but not delete the file and offline, you should only add to the header **"published: false"**:
+
+```
+---
+published: false
+permalink: /link/ -> Offline page.
+---
+```
+If you want to exclude the menu item, but keep the page online, you must delete the header title:
+
+```
+---
+layout: page
+title: Page name -> Delete this line.
+permalink: /link/ -> Online page
+---
+```
+
+**Note:** With these options, you can hide or delete any section like the Slider, the Visualization or the Styleguide page of your final project.
 
 ## Articles
 

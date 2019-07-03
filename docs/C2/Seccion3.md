@@ -90,11 +90,24 @@ image: tb-logo.png
 
 ## Mobile-friendly visualization
 
-Visualization needs to display properly in mobile devices. To achieve this, you'll have to turn each visualization into image once you have your graphic, so you can add it on each slide header.
+By default, the **3-visualization-slider.html** file has configured the option *"responsive"* as *"true"* for better browsing experience on mobile devices:
+
+```
+---
+layout: default
+title: Visualization
+permalink: /visualization/
+responsive: true
+---
+```
+
+Visualization needs to display properly in mobile devices. To achieve this, you'll have to turn each visualization into image (.png or .jpg) once you have your graphic, add the images into the folder **assets/img/**, then add the name of your image on each corresponding slide header. For example:
 
 ```
 ---
 title: First Slide
-image: your-graphic.png
+image: your-graphic.png -> Add the name of your image.
 ---
 ```
+
+You can also deactivate the *"responsive"* option and avoid placing the image in each slide, just delete all the line **responsive: true** in the file header **3-visualization-slider.html** and delete the entire line that begins with **image:** from the header of each slide.
