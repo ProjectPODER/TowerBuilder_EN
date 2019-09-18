@@ -27,7 +27,7 @@ Launched projects
 
 - Living with HIV - [http://livingwithhiv.org/](http://livingwithhiv.org/)
 
-Contact us to add your project created with TowerBuilder through the following e-mail address: <info@quienesquien.wiki>.
+Contact us to add your project created with TowerBuilder through the following e-mail address: info@quienesquien.wiki.
 
 Demos
 -----
