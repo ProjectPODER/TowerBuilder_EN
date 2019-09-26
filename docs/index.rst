@@ -31,6 +31,7 @@ Contact us to add your project created with TowerBuilder through the following e
 
 Demos
 -----
+You can see an example page at:
 
 Spanish: https://projectpoder.github.io/TowerBuilder_ES/
 
