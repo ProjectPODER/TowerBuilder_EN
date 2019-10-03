@@ -15,3 +15,15 @@ At first, your username and the repository name will be reflected on your websit
 For more information, you can check [GitHub's official documentation](https://help.github.com/en/articles/user-organization-and-project-pages).
 
 **Important:** Don't use the same URL as in the original repository because you won't be able to see the site.
+
+## Iframe versions
+
+Tower Builder has versions that can be inserted as an iframe in other websites, after publishing your site you can access this version by adding the parameter **_?iframe_** to your url. For example, to see the iframe version of our demo, you can visit this link: 
+
+<https://towerbuilder.projectpoder.org/?iframe>.
+
+To insert the visualization or slider iframe, add to your url **_/iframe-visualization_** or **_/iframe-slider_**, you can see an example of our demo in the following links:
+
+<https://towerbuilder.projectpoder.org/iframe-visualization/>
+
+<https://towerbuilder.projectpoder.org/iframe-slider/>
