@@ -218,6 +218,43 @@ permalink: /link/ -> Online page
 
 **Note:** With these options, you can hide or delete any section like the Slider, the Visualization or the Styleguide page of your final project.
 
+### Edit the More information menu button title
+
+To change the button title that appears when you reduce the screen width, you only have to change the text in the file **_ config.yml** of the next variable:
+
+```
+menu_button_title: More information -> change it to the text you want
+```
+
+### Edit the Contracts page titles
+
+You can change the different filter titles of the contract search page and the table columns titles in the file **_ config.yml**, this is an example of the default configuration:
+
+```
+contracts_title: Contracts by companies
+search_title: Search
+search_placeholder: Enter keyword to search
+amount_title: Total amount (Mexican pesos)
+amount_from_placeholder: From $
+amount_to_placeholder: to $
+type_contract_title: Type of contract
+type_contract_title_tooltip: The law requires that the Buyer defines the type of contract because the rules vary in each case.
+type_contract_all_option: All
+type_procedure_title: Type of procedure
+type_procedure_title_tooltip: La licitación pública es según la ley mexicana el procedimiento adecuado para contratar obra publica. Excepcionalmente también se pueden realizar otro tipo de procedimientos como adjudicación directa, convenio e invitación a cuando menos tres proveedores.
+type_procedure_all_option: All
+date_range_title: Date range
+date_range_from_placeholder: From
+date_range_to_placeholder: to
+date_range_title_tooltip: Find active contracts between two dates.
+filter_footnote_title: Apply filters on contracts with companies.
+
+# Customize the Contract table titles
+column_1: Companies
+column_2: No. of contracts
+column_3: Total amount
+```
+
 ## Articles
 
 Articles are notes that analyze contracts, and are linked to them in the graph.
