@@ -57,6 +57,16 @@ Or leave it as it is, if you just changed the color tone.
 We recommend you [this website](https://www.color-hex.com/) to find the colors hexadecimal codes.
 
 
+## Changing the preloader colors
+
+The preloader appears when the slider and the visualization are loading, to change the colors you just have to place the color you want in the next variables:
+
+```
+$preloader-color1: #1ee6d3;
+$preloader-color2: #343a40;
+$preloader-color3: $primary;
+```
+
 ## Changing the home page background image
 
 The background image is defined by the **$bgHome** variable:
