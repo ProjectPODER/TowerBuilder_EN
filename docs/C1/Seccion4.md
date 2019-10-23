@@ -226,9 +226,9 @@ To change the button title that appears when you reduce the screen width, you on
 menu_button_title: More information -> change it to the text you want
 ```
 
-### Edit the Contracts page titles
+### Edit the Contracts search page titles
 
-You can change the different filter titles of the contract search page and the table columns titles in the file **_ config.yml**, this is an example of the default configuration:
+You can change the different filter titles of the contracts search page and the table columns titles in the file **_ config.yml**, this is an example of the default configuration:
 
 ```
 contracts_title: Contracts by companies
@@ -254,6 +254,11 @@ column_1: Companies
 column_2: No. of contracts
 column_3: Total amount
 ```
+
+Changes can be seen in this section:
+
+![](https://towerbuilder.projectpoder.org/assets/img/contracts.png) 
+
 
 ## Articles
 
