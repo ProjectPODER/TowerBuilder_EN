@@ -257,7 +257,7 @@ column_3: Total amount
 
 Changes can be seen in this section:
 
-![](https://towerbuilder.projectpoder.org/assets/img/contracts.png) 
+![](contracts.png) 
 
 
 ## Articles
