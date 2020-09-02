@@ -1,5 +1,8 @@
 # Publish the website
 
+**Important:** Before publishing your site, make sure to delete the content of the ** CNAME ** file or replace the content with the url of your website.
+
+
 Once you've configured your website, imported data and edited texts, you can publish the website to verify that everything works as it should.
 
 At first, your username and the repository name will be reflected on your website URL address once it's published. It should be **your_username.github.io/your_repository**.
