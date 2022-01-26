@@ -14,29 +14,39 @@ Now you can start building your website: you'll have to define a project name an
 	variable: value
 	```
 
-	Don’t change the names of the variables, only make changes after the “:”. 
-    
+	Don’t change the names of the variables, only make changes after the “:”.
+
     - Begin by changing the _title_ variable. It defines your site's name in different places, such as browser's tabs, search results and the header of the site. For this, search where it says:
-	
+
 	```
-    title: "TowerBuilder" 
+    title: "TowerBuilder"
 	```
     and replace the text between quotation marks with your site’s title:
 	```
     title: "South road's contracting analysis".
 	```
 
-	- Other important values to change are: 
+	- Other important values to change are:
 
 	```
     image: tb-logo.png -> change for the project logo, or leave it empty, it's optional.
-    description: >- 
-  	 Modify the existing text and put your project's description here. 
+    description: >-
+  	 Modify the existing text and put your project's description here.
 	```
+
+		- To enable or disable the top menu, toggle the following variable between true or false:
+    ```
+    top_menu: true
+    ```
+
+    - To change the title of the top menu item (appears when there are several items in the menu or when the window is adjusted to smaller screens):
+    ```
+    menu_button_title: More information
+    ```
 
 	  To change the logo, follow [these instructions](https://towerbuilder.readthedocs.io/en/latest/C2/Seccion3.html#changing-the-logo).
 
-	- To display the main name of your graphic on the Visualization slider, edit the following variable: 
+	- To display the main name of your graphic on the Visualization slider, edit the following variable:
 
 	```
     graphTitle: "Graphic name"
@@ -80,7 +90,33 @@ Now you can start building your website: you'll have to define a project name an
     show_excerpts: true
 	future: true
 	```
-	
+
 	If you want to know more about these options, visit [this link](https://jekyllrb.com/docs/posts/).
 
 If you want to learn about more advanced options of this configuration file, visit [Jekyll's official documentation](https://jekyllrb.com/docs/configuration/options/).
+
+
+To add analytics to the site, you can add one of these options:
+
+```
+# Analytics Configuration
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-123-456          # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+
+  Matomo:                   # Add, if you want to track with Matomo (former Piwik Analytics)
+    url: matomo.example.com # Required - url to Matomo installation without trailing /
+    siteId: "1234"          # Required - replace with your Matomo site id (Write id as string)
+
+  Piwik:                    # Add, if you want to track with Piwik
+    url: piwik.example.com  # Required - url to Piwik installation without trailing /
+    siteId: "1234"          # Required - replace with your Piwik site id (Write id as string)
+
+  MPulse:                   # Add if you want to track performance with mPulse
+    apikey: XXXXX-YYYYY-ZZZZZ-AAAAA-23456   # Required - replace with your mPulse API key
+
+  Plausible:
+    domain: 'example.com'   # The domain configured in plausible
+    source: 'https://plausible.example.com/js/plausible.js' # The source of the javascript
+```
