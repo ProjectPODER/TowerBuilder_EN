@@ -6,7 +6,7 @@ TowerBuilder is a system to generate websites with data visualizations that mix 
 
 - Get an OCDS-format contracting list.
 - Create a spreadsheet shared with contracting businesses owners.
-- Write and edit text in [MarkDown](https://guides.github.com/features/mastering-markdown/) format.
+- Write and edit text in [MarkDown](https://www.markdownguide.org/basic-syntax/) format.
 - A [GitHub.com](https://github.com/) account.
 
 ## What are the advantages of creating websites using TowerBuilder?

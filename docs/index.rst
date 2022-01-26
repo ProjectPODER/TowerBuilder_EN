@@ -8,7 +8,7 @@ What do I need to create my own TowerBuilder website?
 
 - Get an OCDS-format contracting list.
 - Create a spreadsheet shared with contracting businesses owners.
-- Write and edit text in `MarkDown <https://guides.github.com/features/mastering-markdown/>`_ format.
+- Write and edit text in `MarkDown <https://www.markdownguide.org/basic-syntax/>`_ format.
 - A `GitHub.com <https://github.com/>`_ account.
 
 What are the advantages of creating websites using TowerBuilder?
